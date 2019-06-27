@@ -7,7 +7,9 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
-    return "Hello, World, this is going to be cool !!"
+    return """Hello, World, this is 
+            going to be cool !! isnt it ? 
+            One day in the year of the fox...."""
 if __name__ == "__main__" :
     app.run()
 #just to test a change
