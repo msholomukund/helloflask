@@ -1,8 +1,8 @@
 from flask import Flask
-from fastai import *
-from fastai.vision import *
-path = Path()
-print(path)
+# from fastai import *
+# from fastai.vision import *
+# path = Path()
+# print(path)
 # data = ImageDataBunch.from_folder()
 app = Flask(__name__)
 @app.route('/')
